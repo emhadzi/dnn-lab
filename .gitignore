@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model checkpoints (large binaries)
+*.pt
+*.pth
+*.ckpt
+
+# Data & embeddings (large files, not version controlled)
+datasets/
+embeddings/
+*.pkl
+*.csv
+
+# Temp / scratch files
+cell_*.txt
+
+# Notebook copies
+*- Copy.ipynb
+
+# Claude local memory (machine-specific)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
